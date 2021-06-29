@@ -27,5 +27,4 @@ class User < ApplicationRecord
     validates :gender_id
     validates :favorite_liquor_id
   end
-
 end

@@ -83,19 +83,19 @@ RSpec.describe User, type: :model do
       it 'age_idが空では登録できないこと' do
         @user.age_id = 1
         @user.valid?
-        expect(@user.errors.full_messages).to include("Age must be other than 1")
+        expect(@user.errors.full_messages).to include('Age must be other than 1')
       end
 
       it 'gender_idが空では登録できないこと' do
         @user.gender_id = 1
         @user.valid?
-        expect(@user.errors.full_messages).to include("Gender must be other than 1")
+        expect(@user.errors.full_messages).to include('Gender must be other than 1')
       end
 
       it 'favorite_liquor_idが空では登録できないこと' do
         @user.favorite_liquor_id = 1
         @user.valid?
-        expect(@user.errors.full_messages).to include("Favorite liquor must be other than 1")
+        expect(@user.errors.full_messages).to include('Favorite liquor must be other than 1')
       end
     end
   end

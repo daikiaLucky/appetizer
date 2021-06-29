@@ -18,5 +18,4 @@ class PostsController < ApplicationController
   def destroy
     redirect_to root_path if @post.destroy
   end
-
 end
