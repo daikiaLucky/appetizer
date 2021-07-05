@@ -3,3 +3,20 @@
 <p>年齢</p>
 <p>性別</p>
 <p>好きなお酒</p>
+
+<% @post.each do |post| %>
+  <li class='list'>
+    <%= link_to post_path(post.id) do %>
+    <% if post.image.present? %>
+      <div class='post-img-content'>
+        <%= image_tag post.image, class: "post-img" %>
+      </div>
+    <% end %>
+      <div class='post-info'>
+        <h3 class='post-name'>
+          <%= post.title %>
+        </h3>
+      </div>
+    <% end %>
+  </li>
+<% end %>

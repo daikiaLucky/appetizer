@@ -10,7 +10,7 @@ class User < ApplicationRecord
   belongs_to_active_hash :favorite_liquor
 
   has_many :posts
-  has_many :comments
+  has_many :comments, dependent: :destroy
   has_many :like
 
   with_options presence: true do
