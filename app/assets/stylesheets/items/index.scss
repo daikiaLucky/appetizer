@@ -1,7 +1,7 @@
-.image{
-  width: 300px;
-  height: 300px;
- }
+.header-top {
+  background-image: image-url('topimage.jpeg');
+  background-size: cover;
+}
 
 .header-inner {
   display: flex;
@@ -9,12 +9,11 @@
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
 }
 
 .header-inner a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 .header-navi {
@@ -28,6 +27,28 @@
 
 .contact {
   margin: 0px 20px;
-  border: 2px solid #fff;
+  border: 2px solid white;
   padding: 10px;
+}
+
+.header-center {
+  color: white;
+  padding: 20px 20px 200px 20px;
+  text-align: center;
+}
+
+
+.footer-top {
+  background-color: lightgray;
+  height: 100px;
+}
+
+.footer-inner {
+  background-color: #1f1f1f;
+  color: white;
+  display: flex;
+  text-align: center;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
 }
