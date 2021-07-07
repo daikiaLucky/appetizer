@@ -1,0 +1,33 @@
+.image{
+  width: 300px;
+  height: 300px;
+ }
+
+.header-inner {
+  display: flex;
+  height: 100px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
+
+.header-inner a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-navi {
+  text-align: right;
+  display: flex;
+}
+
+.content {
+  padding: 12px 20px 0 20px;
+}
+
+.contact {
+  margin: 0px 20px;
+  border: 2px solid #fff;
+  padding: 10px;
+}
