@@ -1,50 +1,95 @@
-<h2>新規登録</h2>
+<div class="header-top">
+  <div class="header-inner">
+    <h1><a href="http://localhost:3000">APPETIZER</a></h1>
+    <div class="header-navi">
+      <div class="content">
+        <a href="http://localhost:3000">HOME</a>
+      </div>
+      <div class="content">
+        <a href="#" id="lists">GAME</a>
+      </div>
+      <ul class="show-lists1 hidden" id="pull-down">
+        <li><a href="#" id="lists">カード</a></li>
+        <li><a href="#" id="lists">その他</a></li>
+      </ul>
+      <div class="content">
+        <a href="#" id="lists1">COOKING</a>
+      </div>
+      <ul class="show-lists hidden" id="pull-down1">
+        <li><a href="#">ズボラレシピ</a></li>
+        <li><a href="#">おつまみ</a></li>
+      </ul>
+      <div class="content">
+        <a href="#">VIDEO</a>
+      </div>
+      <div class="contact" id="contact">
+        <%= link_to 'CONTACT', new_user_registration_path %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-content">
+<h2>コンタクトを取るためにはユーザー登録をお願いします。</h2>
 
 <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
     <%= devise_error_messages! %>
 
   <div class="field">
-    <%= f.label :nickname %><br />
-    <%= f.text_field :nickname, autofocus: true, autocomplete: "nickname" %>
+    <%= f.label :ニックネーム %><br />
+    <%= f.text_field :nickname, autofocus: true, autocomplete: "nickname", class:"input-default" %>
   </div>
 
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <%= f.label :メールアドレス %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"input-default" %>
   </div>
 
   <div class="field">
-    <%= f.label :password %>
-    <% if @minimum_password_length %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
-    <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.label :パスワード（半角英数混合6文字以上） %><br />
+    <%= f.password_field :password, autocomplete: "new-password", class:"input-default" %>
   </div>
 
   <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+    <%= f.label :パスワード再入力 %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"input-default" %>
   </div>
 
   <div class="field">
-    <%= f.label :age %><br />
-    <%= f.collection_select(:age_id, Age.all, :id, :name, {}, {class:"select-box", id:"age"}) %>
+    <%= f.label :年齢 %><br />
+    <%= f.collection_select(:age_id, Age.all, :id, :name, {}, {class:"input-name", id:"age"}) %>
   </div>
 
   <div class="field">
-    <%= f.label :gender %><br />
-    <%= f.collection_select(:gender_id, Gender.all, :id, :name, {}, {class:"select-box", id:"gender"}) %>
+    <%= f.label :性別 %><br />
+    <%= f.collection_select(:gender_id, Gender.all, :id, :name, {}, {class:"input-name", id:"gender"}) %>
   </div>
 
   <div class="field">
-    <%= f.label :favorite_liquor %><br />
-    <%= f.collection_select(:favorite_liquor_id, FavoriteLiquor.all, :id, :name, {}, {class:"select-box", id:"favorite_liquor"}) %>
+    <%= f.label :好きなお酒の種類 %><br />
+    <%= f.collection_select(:favorite_liquor_id, FavoriteLiquor.all, :id, :name, {}, {class:"input-name", id:"favorite_liquor"}) %>
   </div>
 
 
   <div class="actions">
-    <%= f.submit "新規登録" %>
+    <%= f.submit "新規登録" ,class:"register-red-btn" %>
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+</div>
+
+
+<div class="footer">
+  <div class="footer-top">
+  </div>
+  <div class="footer-inner">
+    <div class="inner-top">
+      <span>APPETIZER, LCC</span>
+    </div>
+    <div class="inner-bottom">
+      <p>自分も投稿したい方は、右上のCONTACTへ！</p>
+    </div>
+  </div>
+</div>

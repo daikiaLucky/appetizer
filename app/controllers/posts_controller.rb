@@ -40,6 +40,9 @@ class PostsController < ApplicationController
     redirect_to root_path if @post.destroy
   end
 
+  def game
+  end
+
   private
 
   def post_params

@@ -9,7 +9,7 @@
         <a href="#" id="lists">GAME</a>
       </div>
       <ul class="show-lists1 hidden" id="pull-down">
-        <li><a href="#" id="lists">カード</a></li>
+        <li id="lists"><%= link_to 'カード', posts_game_path %></li>
         <li><a href="#" id="lists">その他</a></li>
       </ul>
       <div class="content">
@@ -22,8 +22,8 @@
       <div class="content">
         <a href="#">VIDEO</a>
       </div>
-      <div class="contact">
-        <a href="#">CONTACT</a>
+      <div class="contact" id="contact">
+        <%= link_to 'CONTACT', new_user_registration_path %>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@
 
   <div class="main-center">
     <div class="left-image">
-      <%= image_tag "topimage9", size: "469x312"%>
+      <%= image_tag "topimage12", size: "469x312"%>
     </div>
     <div class="right">
       <p class="name">世界の遊び</p>
