@@ -6,13 +6,21 @@
         <a href="http://localhost:3000">HOME</a>
       </div>
       <div class="content">
-        <a href="#">YOUTUBE</a>
+        <a href="#" id="lists">GAME</a>
       </div>
+      <ul class="show-lists1 hidden" id="pull-down">
+        <li><a href="#" id="lists">カード</a></li>
+        <li><a href="#" id="lists">その他</a></li>
+      </ul>
       <div class="content">
-        <a href="#">WORK</a>
+        <a href="#" id="lists1">COOKING</a>
       </div>
+      <ul class="show-lists hidden" id="pull-down1">
+        <li><a href="#">ズボラレシピ</a></li>
+        <li><a href="#">おつまみ</a></li>
+      </ul>
       <div class="content">
-        <a href="#">STORE</a>
+        <a href="#">VIDEO</a>
       </div>
       <div class="contact">
         <a href="#">CONTACT</a>
@@ -20,9 +28,47 @@
     </div>
   </div>
   <div class="header-center">
-    <h2>APPETIZREとは、お酒を家でもとことん楽しんで飲むために作られた<br>日本初の日本政府非公認サイトです。(多分)</h2>
+    <h2>APPETIZERとは、家で一人でもお酒を楽しむことができる<br>アプリケーションです！</h2>
   </div>
 </div>
+
+<div class="main">
+
+  <div class="main-top">
+    <h1>About APPETIZER</h1>
+    <p>APPETIZERとは、上記の通りです！<br>一人でもできる遊びやおすすめの簡単レシピなどを紹介するサイトです！！<br>
+       宅飲みが流行している昨今の皆様の助けになれば幸いです！！！<br>不定期で更新しますので、たまにチェックをお願い致します！！！！</p>
+  </div>
+
+  <div class="main-center">
+    <div class="left-image">
+      <%= image_tag "topimage9", size: "469x312"%>
+    </div>
+    <div class="right">
+      <p class="name">世界の遊び</p>
+      <p>世界の遊びを紹介します！<br>
+          これであなたも海外旅行をしている気分に！？<br>
+          是非楽しんでください！</p>
+    </div>
+  </div>
+
+  <div class="main-bottom">
+    <div class="left">
+      <p class="name">簡単レシピ</p>
+      <p>ズボラなあなたにぴったりな簡単レシピを紹介します。<br>
+         僕自身もズボラなため、<br>
+         調理時間5分以内！皿洗いなし！<br>
+         の簡単レシピを紹介します！</p>
+    </div>
+    <div class="right-image">
+      <%=image_tag "topimage11", size: "469x312"%>
+    </div>
+  </div>
+
+</div>
+
+
+
 
 
 
@@ -32,6 +78,11 @@
   <div class="footer-top">
   </div>
   <div class="footer-inner">
-    <span>APPETIZER, LCC</span>
+    <div class="inner-top">
+      <span>APPETIZER, LCC</span>
+    </div>
+    <div class="inner-bottom">
+      <p>自分も投稿したい方は、右上のCONTACTへ！</p>
+    </div>
   </div>
 </div>
