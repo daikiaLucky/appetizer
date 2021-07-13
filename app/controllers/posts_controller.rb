@@ -43,6 +43,9 @@ class PostsController < ApplicationController
   def game
   end
 
+  def cooking
+  end
+
   private
 
   def post_params

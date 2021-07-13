@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
   root to: "posts#index" 
   get "posts/game"
+  get 'posts/cooking'
   resources :posts, only: [:new, :create, :show, :edit, :update, :destroy] do
     resources :comments, only: [:create]
   end

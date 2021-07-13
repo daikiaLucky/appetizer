@@ -8,6 +8,24 @@ window.addEventListener('load', function(){
 
   const changeColor = document.getElementById("contact")
 
+  const clickButton = document.getElementById("button")
+  const clickInnerTop = document.getElementById("inner-top")
+
+  clickButton.addEventListener('click', function() {
+    // タイムスタンプを取得
+    const date = new Date();
+    const timestamp = date.getTime();
+ 
+    // 追加するimgを生成
+    const img = document.createElement('img');
+    img.src = '../../app/assets/images/topimage7.jpg?' + timestamp;
+
+    // 追加エリアの中身を空にしてimgを追加
+    clickInnerTop.textContent = null;
+    clickInnerTop.appendChild(img);
+  }, false);
+
+
   pullDownButton.addEventListener('mouseover', function(){
     if (pullDownParents.getAttribute("style") == "display:block;") {
       pullDownParents.removeAttribute("style", "display:block;")
@@ -24,8 +42,6 @@ window.addEventListener('load', function(){
     }
   })
 
-  
-
   changeColor.addEventListener('mouseover', function(){
     changeColor.setAttribute("style", "background-color:gray;")
   })
@@ -33,6 +49,5 @@ window.addEventListener('load', function(){
   changeColor.addEventListener('mouseout', function(){
     changeColor.removeAttribute("style", "background-color:none;")
   })
-
 
 })
