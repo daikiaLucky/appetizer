@@ -20,13 +20,13 @@
 <h3 align="center">- 一部ページ詳細 -</h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84824479/126096690-4434924b-d5e4-4a31-b698-dd16ab9d77a8.gif" width=40%>
+  <img src="https://user-images.githubusercontent.com/84824479/126096690-4434924b-d5e4-4a31-b698-dd16ab9d77a8.gif" width=70%>
 </p>
 
 <h3 align="center">- 隠しコマンド -</h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84824479/126096434-3f3853ed-9370-4f62-9306-34a7850ac84d.gif" width=40%>
+  <img src="https://user-images.githubusercontent.com/84824479/126096434-3f3853ed-9370-4f62-9306-34a7850ac84d.gif" width=70%>
 </p>
 
 
