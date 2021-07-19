@@ -1,5 +1,7 @@
 .main-content {
   margin: 100px 0px 0px 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .field {
@@ -32,7 +34,7 @@
 }
 
 .register-red-btn {
-  width: 25%;
+  width: 50%;
   background: #ea352d;
   border: 1px solid #ea352d;
   color: #fff;

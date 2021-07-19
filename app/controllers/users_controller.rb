@@ -3,4 +3,6 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @post = @user.posts
   end
+
+  
 end

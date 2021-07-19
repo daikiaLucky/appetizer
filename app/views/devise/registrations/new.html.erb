@@ -33,7 +33,7 @@
 <h2>コンタクトを取るためにはユーザー登録をお願いします。</h2>
 
 <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
-    <%= devise_error_messages! %>
+  <%= devise_error_messages! %>
 
   <div class="field">
     <%= f.label :ニックネーム %><br />
@@ -75,14 +75,14 @@
     <%= f.submit "新規登録" ,class:"register-red-btn" %>
   </div>
 <% end %>
-
 <%= render "devise/shared/links" %>
-
 </div>
 
 
 <div class="footer">
   <div class="footer-top">
+    <p>このアプリケーションには隠しコマンドが5個あるので、探してみてください。。。</p>
+    <p>お酒の肴になると嬉しいです！</p>
   </div>
   <div class="footer-inner">
     <div class="inner-top">

@@ -20,7 +20,7 @@
         <li><a href="#">おつまみ</a></li>
       </ul>
       <div class="content">
-        <a href="#">VIDEO</a>
+        <a href="#", id="video">VIDEO</a>
       </div>
       <div class="contact" id="contact">
         <%= link_to 'CONTACT', new_user_registration_path %>
@@ -42,7 +42,7 @@
 
   <div class="main-center">
     <div class="left-image">
-      <%= image_tag "topimage12.jpg", size: "469x312"%>
+      <%= image_tag "topimage12.jpg", size: "469x312", id: "left-image"%>
     </div>
     <div class="right">
       <p class="name">世界の遊び</p>
@@ -78,9 +78,9 @@
   <div class="footer-top">
   </div>
   <div class="footer-inner">
-    <ul class="inner-top" id="inner-top"></ul>
-      <li id="button">ここを5回クリックすると、、、</li>
-    <div class="inner-bottom">
+    <div class="inner-top" id="inner-top"></div>
+      <button id="button" class="button">ここをクリックすると、、、</button>
+    <div class="inner-bottom" id="inner-bottom">
       <p>自分も投稿したい方は、右上のCONTACTへ！</p>
     </div>
   </div>
