@@ -39,7 +39,7 @@
 
 <dl>
   <dd>画面内の任意の箇所をクリックすると、隠し要素が発生します！<br>
-      隠し要素を探すのみ楽しみ頂ければと思います！</dd>
+      隠し要素を探すのも楽しみ頂ければと思います！</dd>
 </dl>
 
 
@@ -48,7 +48,9 @@
 
 <ul>
   <li>
-  <a href="https://github.com/daikiaLucky">GitHub</a>
+    <a href="https://github.com/daikiaLucky">GitHub</a>
+  </li>
+  <li>
   <a href="https://twitter.com/102_araki">Twitter</a>
   </li>
 </ul>
