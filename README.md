@@ -1,4 +1,4 @@
-![APPETIZER](https://gyazo.com/4de33176222ca1cf04404747984018c1)
+![APPETIZER](4de33176222ca1cf04404747984018c1.gif)
 
 <h2 align="center">APPETIZER</h2>
 
