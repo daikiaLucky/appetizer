@@ -1,6 +1,22 @@
 ![APPETIZER](https://user-images.githubusercontent.com/84824479/126095588-a9499241-af9f-4c8f-9d7b-2b8416eb5aba.gif)
 
-<h2 align="center">APPETIZER</h2>
+## :orange_book: アプリ名
+
+### APPETIZER 
+
+
+
+## :blue_book: 概要
+
+<p>本アプリケーションは、一人でもお酒が楽しく飲める為に作成したアプリケーションです。</p>
+
+
+
+## :green_book: 制作背景
+
+<h3>昨今、家で一人でお酒を飲む機会が増加してる中で、
+    少しでも楽しくお酒を飲んで頂く為に作成しました。
+    少しでもお酒を飲む時間を楽しんで頂いて、ちょっとだけ日頃の疲れなどを忘れて頂けたら幸いです。</h3>
 
 
 
