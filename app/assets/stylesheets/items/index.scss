@@ -112,13 +112,37 @@
 
 .header-center {
   color: white;
-  padding: 100px 20px 220px 20px;
+  padding: 100px 20px 220px 0px;
   text-align: center;
   animation-name: fadeUpAnime;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
   margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.click-left {
+  color: transparent;
+}
+
+.click-right {
+  color: transparent;
+}
+
+.img-after {
+  animation: fadein-keyframes 6s ease 0s 1 forwards;
+}
+
+@keyframes fadein-keyframes {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeUpAnime{
