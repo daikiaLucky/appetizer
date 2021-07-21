@@ -53,7 +53,7 @@
 </dl>
 
 
-<h3 align="center">- 隠しコマンド(合計5個) -</h3>
+<h3 align="center">- 隠しコマンド(数個) -</h3>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/84824479/126096434-3f3853ed-9370-4f62-9306-34a7850ac84d.gif" width=70%>
