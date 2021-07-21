@@ -1,9 +1,9 @@
 <div class="header-top">
   <div class="header-inner">
-    <h1><a href="http://localhost:3000">APPETIZER</a></h1>
+    <h1><a href="https://appetizer-35960.herokuapp.com/">APPETIZER</a></h1>
     <div class="header-navi">
       <div class="content">
-        <a href="http://localhost:3000">HOME</a>
+        <a href="https://appetizer-35960.herokuapp.com/">HOME</a>
       </div>
       <div class="content">
         <a href="#" id="lists">GAME</a>
@@ -27,38 +27,75 @@
   </div>
 </div>
 
-<div class="main-content">
-  <div class="left">
+<div class="main-intro">
+  <div class="left-intro">
     <ul class="title">GAME
       <li><%= link_to "カード", posts_game_path %></li>
-      <li><%= link_to "その他", "#" %></li>
-
     </ul>
   </div>
 
-  <div class="right">
+  <div class="rightintro">
     <div class="right-top">
-      <p class="title">インドの遊び</p>
-      <p class="description">
-      内容をつらつらと書きます！たくさん書きたいです目安はないけど読みやすい感じにする！<br>
-      どっかに画像と動画を入れたいです。</p>
+      <p class="title">無限ピーマン</p>
+      <div class="recipe">
+        <%= image_tag "topimage12.jpg", size: "351x234", class: "foodimage" %>
+        <div class="howto">
+          <p class="description-top">材料</p>
+          <p class="description-center">
+            　　ピーマン：6個<br>
+            　　塩昆布　：ふたつまみ　　　<br>
+            　　ごま油　：大さじ1</p>
+          <p class="description-top">手順</p>
+          <p class="description-bottom">
+            　　1：ピーマンを縦半分に切り、横に細切りにします。<br>
+            　　2：切ったピーマンと、塩昆布、ごま油をボウルで混ぜます。<br>
+            　　3：盛り付けて完成です。</p>
+        </div>
+      </div>
     </div>
 
     <div class="right-center">
-      <p class="title">どっかの遊び</p>
-      <p class="description">
-      内容をつらつらと書きます！たくさん書きたいです目安はないけど読みやすい感じにする！<br>
-      もっとたくさん書きたいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい<br>
-      むずいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい</p>
+      <p class="title">ちくわの磯辺マヨ焼き</p>
+      <div class="recipe">
+      <%= image_tag "topimage12.jpg", size: "351x234", class: "foodimage" %>
+        <div class="howto">
+          <p class="description-top">材料</p>
+          <p class="description-center">
+            　　ちくわ　　：5本<br>
+            　　マヨネーズ：大さじ3　　　　<br>
+            　　青のり　　：大さじ1</p>
+          <p class="description-top">手順</p>
+          <p class="description-bottom">
+            　　1：ちくわを約2cm幅に斜め切りします。<br>
+            　　2：切ったちくわとマヨネーズと青のりをボウルで混ぜあわせます。<br>
+            　　3：アルミホイルを敷いて、オーブントースターで焼き色がつくまで5〜6分焼きます。<br>
+            　　4：盛り付けて完成です。</p>
+        </div>
+      </div>
     </div>
 
     <div class="right-bottom">
-      <p class="title">スペインの遊び</p>
-      <p class="description">
-      内容をつらつらと書きます！たくさん書きたいです目安はないけど読みやすい感じにする！<br>
-      ルイスにスペインの遊びを確認しますうううううううううううううううううううううううう<br>
-      うううううううううううううううううううううううううううううううううううううううううう<br>
-      むずすぎいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい</p>
+      <p class="title">アボカドとサーモンのユッケ</p>
+      <div class="recipe">
+      <%= image_tag "topimage12.jpg", size: "351x234", class: "foodimage" %>
+        <div class="howto">
+          <p class="description-top">材料</p>
+          <p class="description-center">
+            　　サーモン　　　　：100g<br>
+            　　アボガド　　　　：1/2個<br>
+            　　醤油　　　　　　：大さじ1<br>
+            　　コチュジャン　　：小さじ2<br>
+            　　ごま油　　　　　：小さじ2<br>
+            　　白いりごま　　　：小さじ1<br>
+            　　チューブニンニク：小さじ1/2</p>
+          <p class="description-top">手順</p>
+          <p class="description-bottom">
+            　　1：サーモンを1cm角に切ります。<br>
+            　　2：アボカドも1cm角に切ります。<br>
+            　　3：サーモン、アボガド、その他をボウルで混ぜあわせます。<br>
+            　　4：盛り付けて完成です。</p>
+        </div>
+      </div>
     </div>
 
   </div>
