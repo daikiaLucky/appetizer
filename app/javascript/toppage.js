@@ -18,6 +18,9 @@ window.addEventListener('load', function(){
   const clickClickRight = document.getElementById("click-right")
   const imageAppear = document.getElementById("image-appear")
 
+  
+
+
   clickClickRight.addEventListener('click', function(){
     imageAppear.src = "https://user-images.githubusercontent.com/84824479/126291449-32632aa3-9309-44b2-80e5-af5093a8f31c.gif"
     imageAppear.classList.add("img-after")
