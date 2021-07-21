@@ -9,18 +9,16 @@
         <a href="#" id="lists">GAME</a>
       </div>
       <ul class="show-lists1 hidden" id="pull-down">
-        <li><a href="#" id="lists">カード</a></li>
-        <li><a href="#" id="lists">その他</a></li>
+        <li id="lists"><%= link_to 'カード', posts_game_path %></li>
       </ul>
       <div class="content">
         <a href="#" id="lists1">COOKING</a>
       </div>
       <ul class="show-lists hidden" id="pull-down1">
-        <li><a href="#">ズボラレシピ</a></li>
-        <li><a href="#">おつまみ</a></li>
+        <li id="lists"><%= link_to 'ズボラレシピ', posts_cooking_path %></li>
       </ul>
       <div class="content">
-        <a href="#">VIDEO</a>
+        <a href="#", id="video">VIDEO</a>
       </div>
       <div class="contact" id="contact">
         <%= link_to 'CONTACT', new_user_registration_path %>

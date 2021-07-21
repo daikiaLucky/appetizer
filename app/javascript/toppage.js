@@ -18,13 +18,10 @@ window.addEventListener('load', function(){
   const clickClickRight = document.getElementById("click-right")
   const imageAppear = document.getElementById("image-appear")
 
-  
 
 
-  clickClickRight.addEventListener('click', function(){
-    imageAppear.src = "https://user-images.githubusercontent.com/84824479/126291449-32632aa3-9309-44b2-80e5-af5093a8f31c.gif"
-    imageAppear.classList.add("img-after")
-  })
+
+
 
   clickVideo.addEventListener('click', function () {
     clickVideo.classList.add("video-after")
@@ -45,24 +42,10 @@ window.addEventListener('load', function(){
       });
     };
     typewriter({
-      el: "#video", //要素
-      string: "水もこまめにとったほうがいいですよ！！", //文字列
-      speed: 100 //速度
+      el: "#video", 
+      string: "水もこまめにとったほうがいいですよ！！", 
+      speed: 100 
     });
-  })
-
-  clickButton.addEventListener('click',function () {
-    downInnerBottom.innerText = "カンパ〜〜〜い！！！！！";
-    $('#inner-bottom').css({
-      'color':'white',
-      'font-size':'90px',
-      'font-weight':'bold'
-    });
-  })
-
-  clickImage.addEventListener('click', function () {
-    clickImage.width = 1407;
-    clickImage.height = 936;
   })
 
   pullDownButton.addEventListener('mouseover', function(){
@@ -87,6 +70,25 @@ window.addEventListener('load', function(){
 
   changeColor.addEventListener('mouseout', function(){
     changeColor.removeAttribute("style", "background-color:none;")
+  })
+
+  clickClickRight.addEventListener('click', function(){
+    imageAppear.src = "https://user-images.githubusercontent.com/84824479/126291449-32632aa3-9309-44b2-80e5-af5093a8f31c.gif"
+    imageAppear.classList.add("img-after")
+  })
+
+  clickButton.addEventListener('click',function () {
+    downInnerBottom.innerText = "カンパ〜〜〜い！！！！！";
+    $('#inner-bottom').css({
+      'color':'white',
+      'font-size':'90px',
+      'font-weight':'bold'
+    });
+  })
+
+  clickImage.addEventListener('click', function () {
+    clickImage.width = 1407;
+    clickImage.height = 936;
   })
 
 })

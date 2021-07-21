@@ -46,3 +46,54 @@
 .actions {
   margin: 20px 0;
 }
+
+.show-lists{
+  padding: 10px 20px;
+  position: absolute;
+  right: 240px;
+  top: 50px;
+  list-style: none;
+  color: white;
+  text-align: center;
+  animation-name: fadeUpAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+.show-lists li {
+  margin: 5px;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.hidden {
+  display: none;
+
+}
+
+.show-lists1{
+  padding: 10px 20px;
+  position: absolute;
+  right: 370px;
+  top: 50px;
+  list-style: none;
+  color: white;
+  text-align: center;
+  animation-name: fadeUpAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+.show-lists1 li {
+  margin: 5px;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.hidden {
+  display: none;
+}
