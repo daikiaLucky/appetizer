@@ -42,15 +42,28 @@
 
 ## 📦 Features
 
-<h3 align="center">- 一部ページ詳細 -</h3>
+<h3 align="center">- GAME紹介ページ -</h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84824479/126096690-4434924b-d5e4-4a31-b698-dd16ab9d77a8.gif" width=70%>
+  <img src="https://user-images.githubusercontent.com/84824479/126585697-4e90d797-0497-4a63-b0bb-d010cdcaeaa2.gif" width=70%>
 </p>
 
 <dl>
-  <dd>レシピ画面への遷移動画です。</dd>
+  <dd>一人でも楽しめるアプリを紹介するページです。</dd>
 </dl>
+
+
+
+<h3 align="center">- COOKING紹介ページ -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84824479/126585759-a76a45c5-28b3-4914-acf5-ed878fd8cb0e.gif" width=70%>
+</p>
+
+<dl>
+  <dd>簡単に出来るおつまみレ紹介ページです。</dd>
+</dl>
+
 
 
 <h3 align="center">- 隠しコマンド(数個) -</h3>
@@ -62,6 +75,23 @@
 <dl>
   <dd>画面内の任意の箇所をクリックすると、隠し要素が発生します！<br>
       隠し要素を探すのも楽しみ頂ければと思います！</dd>
+</dl>
+
+
+
+<h3 align="center">- ユーザー登録機能 -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84824479/126586068-531a3f1a-3a14-45b2-a7bb-9b73ddc726d4.gif" width=70%>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84824479/126586263-9f7758a3-2634-4849-a182-e29df28df2db.gif" width=70%>
+</p>
+
+<dl>
+  <dd>年齢、性別、好きなお酒等、必要項目を選択し、新規登録ボタンをクリックすると、<br>
+      運営者のメールアドレス、Twitterアカウントが表示されます。</dd>
 </dl>
 
 
