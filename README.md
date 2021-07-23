@@ -57,7 +57,7 @@
 <h3 align="center">- COOKING紹介ページ -</h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/84824479/126585759-a76a45c5-28b3-4914-acf5-ed878fd8cb0e.gif" width=70%>
+  <img src="https://user-images.githubusercontent.com/84824479/126729096-0b4cce98-e58e-4fd2-a2fe-307d5d35f4cb.gif" width=70%>
 </p>
 
 <dl>
